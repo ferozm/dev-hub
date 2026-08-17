@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.*;
 
 // https://leetcode.com/problems/top-k-frequent-elements/description/
@@ -11,10 +13,10 @@ public class MD_LC347_TopKFrequentElements {
 
         if (result != null) {
             for (int i = 0; i < result.length; i++) {
-                System.out.println(result[i]);
+                LOG(result[i]);
             }
         } else {
-            System.out.printf("None found");
+            LOG("None found");
         }
 
     }

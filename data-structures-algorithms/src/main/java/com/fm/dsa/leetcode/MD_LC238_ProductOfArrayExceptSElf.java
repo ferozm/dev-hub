@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 // https://leetcode.com/problems/product-of-array-except-self/description/
 public class MD_LC238_ProductOfArrayExceptSElf {
 
@@ -8,7 +10,7 @@ public class MD_LC238_ProductOfArrayExceptSElf {
         int[] result = productExceptSelf(nums);
 
         for (int i = 0; i < result.length; i++) {
-            System.out.println(result[i]);
+            LOG(result[i]);
         }
     }
 

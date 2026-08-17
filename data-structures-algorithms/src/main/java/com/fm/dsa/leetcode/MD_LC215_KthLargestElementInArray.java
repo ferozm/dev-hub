@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.PriorityQueue;
 
 // https://leetcode.com/problems/kth-largest-element-in-an-array/description/
@@ -7,7 +9,7 @@ public class MD_LC215_KthLargestElementInArray {
 
     public static void main(String[] args) {
         int[] nums ={3,2,1,5,6,4};
-        System.out.println(findKthLargest(nums,3));
+        LOG(findKthLargest(nums,3));
     }
 
     private  static int findKthLargest(int[] nums, int k) {

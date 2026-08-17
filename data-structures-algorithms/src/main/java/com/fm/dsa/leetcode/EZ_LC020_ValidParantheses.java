@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.HashMap;
 import java.util.Stack;
 
@@ -11,9 +13,9 @@ public class EZ_LC020_ValidParantheses {
         String s2 = "[]";
         String s3 = "[(])";
 
-        System.out.println(isValid(s1));
-        System.out.println(isValid(s2));
-        System.out.println(isValid(s3));
+        LOG(isValid(s1));
+        LOG(isValid(s2));
+        LOG(isValid(s3));
 
     }
 

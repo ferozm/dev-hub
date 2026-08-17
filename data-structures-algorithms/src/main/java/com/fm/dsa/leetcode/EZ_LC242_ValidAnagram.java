@@ -1,14 +1,16 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.Arrays;
 
 // https://leetcode.com/problems/valid-anagram/description/
 public class EZ_LC242_ValidAnagram {
     public static void main(String[] args) {
         String s = "racecar", t = "carrace";
-        System.out.println(isAnagram(s, t));
+        LOG(isAnagram(s, t));
 
-        System.out.println(isAnagramV2(s, t));
+        LOG(isAnagramV2(s, t));
 
     }
 

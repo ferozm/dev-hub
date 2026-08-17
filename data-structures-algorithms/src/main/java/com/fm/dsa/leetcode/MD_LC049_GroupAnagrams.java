@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -16,9 +18,9 @@ public class MD_LC049_GroupAnagrams {
         for (int i = 0; i < output.size(); i++) {
             List<String> l = output.get(i);
             for (int j = 0; j < l.size(); j++) {
-                System.out.println(l.get(j));
+                LOG(l.get(j));
             }
-            System.out.println("---------");
+            LOG("---------");
         }
     }
 

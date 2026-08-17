@@ -1,4 +1,7 @@
 package com.fm.dsa.leetcode;
+
+import static com.fm.dsa.DSALogger.LOG;
+
 import com.fm.dsa.*;
 
 // https://leetcode.com/problems/invert-binary-tree/description/
@@ -7,7 +10,7 @@ import com.fm.dsa.*;
 public class EZ_LC226_InvertBinaryTree {
     public static void main(String[] args) {
 
-        System.out.println(invertTree(null));
+        LOG(invertTree(null));
     }
 
     static TreeNode invertTree(TreeNode root) {

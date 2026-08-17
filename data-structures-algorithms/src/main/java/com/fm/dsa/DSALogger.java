@@ -23,9 +23,9 @@ public class DSALogger {
           LOGGER.addHandler(handler);
      }
 
-     public static void LOG(String msg){
+     public static void LOG(Object msg){
 
-          LOGGER.info(msg);
+          LOGGER.info(String.valueOf(msg));
 
      }
 }

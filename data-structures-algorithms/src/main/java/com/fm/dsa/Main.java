@@ -18,15 +18,15 @@ public class Main {
 //
 //            list.add(1);
 //            Object[] elementData = (Object[]) field.get(list);
-//            System.out.println(elementData.length);
+//            LOG(elementData.length);
 //
 //            list.trimToSize();
 //            elementData = (Object[]) field.get(list);
-//            System.out.println(elementData.length);
+//            LOG(elementData.length);
 //
 //
 //        } catch (Exception e) {
-//            System.out.println(e.getMessage());
+//            LOG(e.getMessage());
 //        }
     }
 }

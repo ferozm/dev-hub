@@ -1,13 +1,15 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 // https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 public class MD_LC153_MinInRotatedSortedArray {
     public static void main(String[] args) {
         int[] nums = { 3, 4, 5, 6, 1, 2 };
         int[] nums1 = {6, 1, 2, 3, 4, 5};
 
-        System.out.println(findMin(nums));
-        System.out.println(findMin(nums1));
+        LOG(findMin(nums));
+        LOG(findMin(nums1));
     }
 
     private static int findMin(int[] nums) {

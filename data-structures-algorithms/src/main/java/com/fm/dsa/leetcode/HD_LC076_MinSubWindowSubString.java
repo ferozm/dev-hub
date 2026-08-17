@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.*;
 
 // https://leetcode.com/problems/minimum-window-substring/description/
@@ -7,7 +9,7 @@ public class HD_LC076_MinSubWindowSubString {
     public static void main(String[] args) {
 
         String s = "cabwefgewcwaefgcf", t = "cae";
-        System.out.println(minWindow(s, t));
+        LOG(minWindow(s, t));
     }
 
     static String minWindow(String s, String t) {

@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.Arrays;
 
 // https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
@@ -9,9 +11,9 @@ public class MD_LC167_TwoSumII {
         int[] nums2 = {2,3,4};
         int[] nums3 = {-1,0};
 
-        System.out.println(Arrays.toString(twoSum2(nums1,9)));
-        System.out.println(Arrays.toString(twoSum2(nums2,6)));
-        System.out.println(Arrays.toString(twoSum2(nums3,-1)));
+        LOG(Arrays.toString(twoSum2(nums1,9)));
+        LOG(Arrays.toString(twoSum2(nums2,6)));
+        LOG(Arrays.toString(twoSum2(nums3,-1)));
 
     }
 

@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 
@@ -8,8 +10,8 @@ public class MD_LC003_LongestSubStrWithoutRepeatingChars {
     public static void main(String[] args) {
 
         String s = "zxxyzaxyz";
-        System.out.println(lengthOfLongestSubstring(s));
-        System.out.println(lengthOfLongestSubstringV2(s));
+        LOG(lengthOfLongestSubstring(s));
+        LOG(lengthOfLongestSubstringV2(s));
     }
 
     private static int lengthOfLongestSubstring(String str) {

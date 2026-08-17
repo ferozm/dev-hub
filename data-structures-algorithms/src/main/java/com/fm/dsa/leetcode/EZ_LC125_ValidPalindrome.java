@@ -1,14 +1,16 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 // https://leetcode.com/problems/valid-palindrome/description/
 
 public class EZ_LC125_ValidPalindrome {
     public static void main(String[] args) {
         String input = "Was it a car or a cat I saw?";
-        System.out.println("isPalindrome = " + practice(input));
+        LOG("isPalindrome = " + practice(input));
 
         input = "tab a cat";
-        System.out.println("isPalindrome = " + practice(input));
+        LOG("isPalindrome = " + practice(input));
     }
 
     private static boolean practice(String s) {

@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -9,7 +11,7 @@ public class MD_LC015_ThreeSum {
     public static void main(String[] args) {
 
         int[] nums = {-1, 0, 1, 2, -1, -4};
-        System.out.println(threeSum(nums));
+        LOG(threeSum(nums));
     }
 
     private static List<List<Integer>> threeSum(int[] nums) {

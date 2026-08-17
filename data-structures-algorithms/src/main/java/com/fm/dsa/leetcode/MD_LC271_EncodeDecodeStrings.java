@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.ArrayList;
 
 // https://neetcode.io/problems/string-encode-and-decode/question
@@ -8,10 +10,10 @@ public class MD_LC271_EncodeDecodeStrings {
         String[] strs = {"Hello", "World"};
 
         String encodedString = encode(strs);
-        System.out.println("encoded string = " + encodedString);
+        LOG("encoded string = " + encodedString);
 
         String[] decodedStr = decode(encodedString);
-        System.out.println("decoded string = " + decodedStr);
+        LOG("decoded string = " + decodedStr);
 
     }
 

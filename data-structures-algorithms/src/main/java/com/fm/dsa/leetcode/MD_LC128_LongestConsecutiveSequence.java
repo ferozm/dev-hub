@@ -1,13 +1,15 @@
 package com.fm.dsa.leetcode;
 // https://leetcode.com/problems/longest-consecutive-sequence/description/
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.Arrays;
 
 public class MD_LC128_LongestConsecutiveSequence {
     public static void main(String[] args) {
         int[] nums = {0, 3, 2, 5, 4, 6, 1, 1};
         int result = longestConsqSeqLength(nums);
-        System.out.println("longestConsqSeqLength = " + result);
+        LOG("longestConsqSeqLength = " + result);
 
     }
 

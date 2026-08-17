@@ -2,13 +2,15 @@ package com.fm.dsa.leetcode;
 
 // https://leetcode.com/problems/longest-repeating-character-replacement/description/
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.HashMap;
 
 public class MD_LC424_LongestRepeatingCharReplacement {
     public static void main(String[] args) {
 
         String s = "AABABBA";
-        System.out.println((characterReplacement(s, 1)));
+        LOG((characterReplacement(s, 1)));
 
     }
 

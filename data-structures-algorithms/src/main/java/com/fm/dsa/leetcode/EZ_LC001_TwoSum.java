@@ -1,5 +1,7 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 import java.util.HashMap;
 
 // https://leetcode.com/problems/two-sum/description/
@@ -8,7 +10,7 @@ public class EZ_LC001_TwoSum {
     public static void main(String[] args) {
         int[] nums = {3, 4, 5, 6};
         int[] result = twoSum(nums, 10);
-        System.out.println(result[0] + " and " + result[1]);
+        LOG(result[0] + " and " + result[1]);
     }
 
     private static int[] twoSum(int[] nums, int target) {

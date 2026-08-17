@@ -1,14 +1,16 @@
 package com.fm.dsa.leetcode;
 
+import static com.fm.dsa.DSALogger.LOG;
+
 // https://leetcode.com/problems/container-with-most-water/description/
 public class MD_LC011_ContainerWithMostWater {
 
     public static void main(String[] args) {
         int[] heights = {1, 7, 2, 5, 4, 7, 3, 6};
-        System.out.println("getMaxArea = " + getMaxArea(heights));
+        LOG("getMaxArea = " + getMaxArea(heights));
 
         int[] height1 = {2, 2, 2};
-        System.out.println("getMaxArea = " + getMaxArea(height1));
+        LOG("getMaxArea = " + getMaxArea(height1));
     }
 
 
