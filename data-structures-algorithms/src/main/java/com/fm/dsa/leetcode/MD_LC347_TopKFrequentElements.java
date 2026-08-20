@@ -19,6 +19,8 @@ public class MD_LC347_TopKFrequentElements {
             LOG("None found");
         }
 
+        result = topKFrequent(nums, 2);
+
     }
 
     private static int[] topKFrequent(int[] nums, int k) {

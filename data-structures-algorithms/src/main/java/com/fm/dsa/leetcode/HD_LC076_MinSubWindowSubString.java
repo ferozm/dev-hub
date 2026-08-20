@@ -16,8 +16,8 @@ public class HD_LC076_MinSubWindowSubString {
 
         String result = "";
 
-        HashMap<Character, Integer> window = new HashMap();
-        HashMap<Character, Integer> countT = new HashMap();
+        HashMap<Character, Integer> window = new HashMap<>();
+        HashMap<Character, Integer> countT = new HashMap<>();
 
         for (int i = 0; i < t.length(); i++) {
             countT.put(t.charAt(i), countT.getOrDefault(t.charAt(i), 0) + 1);
